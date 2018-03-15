@@ -13,7 +13,7 @@ import WebViewer from './scenes/webViewer'
 export default class App extends Component {
   constructor(props) {
       super(props);
-    Text.defaultProps.allowFontScaling=false
+      Text.defaultProps.allowFontScaling=false
   }
 
   render() {
