@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import {
     Platform,
     Text,
+    View,
 } from 'react-native';
 
 import { Actions, ActionConst, Scene, Router } from 'react-native-router-flux';
 
 
-import Introduce from './scenes/introduce'
-import WebViewer from './scenes/webViewer'
+// import Introduce from './scenes/introduce'
+// import WebViewer from './scenes/webViewer'
 
 export default class App extends Component {
   constructor(props) {
@@ -17,15 +18,17 @@ export default class App extends Component {
   }
 
   render() {
-      const scenes = Actions.create(
-          <Scene key="root">
-              <Scene key="Introduce" component={Introduce} hideNavBar initial={true} hideNavBar  />
-              <Scene key="WebViewer" component={WebViewer} hideNavBar /> 
-          </Scene>
-      )
+      // const scenes = Actions.create(
+      //     <Scene key="root">
+      //         <Scene key="Introduce" component={Introduce} hideNavBar initial={true} hideNavBar  />
+      //         <Scene key="WebViewer" component={WebViewer} hideNavBar /> 
+      //     </Scene>
+      // )
 
-      return (
-          <Router hideNavBar scenes={scenes} />
-      );
+      // return (
+      //     <Router hideNavBar scenes={scenes} />
+      // );
+
+      return(<View/>)
   }
 }
