@@ -5,7 +5,7 @@ import {
     View,
 } from 'react-native';
 
-import { Actions, ActionConst, Scene, Router } from 'react-native-router-flux';
+//import { Actions, ActionConst, Scene, Router } from 'react-native-router-flux';
 
 
 // import Introduce from './scenes/introduce'
@@ -14,7 +14,7 @@ import { Actions, ActionConst, Scene, Router } from 'react-native-router-flux';
 export default class App extends Component {
   constructor(props) {
       super(props);
-      Text.defaultProps.allowFontScaling=false
+      //Text.defaultProps.allowFontScaling=false
   }
 
   render() {
