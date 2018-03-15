@@ -11,7 +11,7 @@ import {
 // import Introduce from './scenes/introduce'
 // import WebViewer from './scenes/webViewer'
 
-export default class App extends Component {
+export default class App extends Component<{}> {
   constructor(props) {
       super(props);
       //Text.defaultProps.allowFontScaling=false
